@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+<script>
+            function getUrlVars() {
+                var vars = {};
+                var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                    vars[key] = value;
+                });
+                return vars;
+            }
+
+            function init() {
+                var page = getUrlVars()["page"];
+                document.getElementById( "div"+page ).style.display = "inline";
+            }
+
+
+</script>
+    </head>
+<body onload="init()">
+    <div id="div1" style="display:none;"> esta eh div 1</div>
+    <div id="div2" style="display:none">esta eh div 2</div>
+    <div id="div3" style="display:none">esta eh div 3</div>
+</body>
+</html>
