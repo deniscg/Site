@@ -319,6 +319,9 @@ img {
 .img-rounded {
   border-radius: 6px;
 }
+.img-tamanho{
+  max-width: 30%;
+}
 .img-thumbnail {
   display: inline-block;
   max-width: 100%;
