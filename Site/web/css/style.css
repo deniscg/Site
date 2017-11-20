@@ -32,6 +32,9 @@ body {
 .header{
 	padding: 2% 0;
 }
+.pink {
+    color: Grey;
+}
 .logo h1 a{
 	font-size: 1em;
 	text-transform: uppercase;
@@ -218,7 +221,64 @@ body {
 	position: relative;
 	z-index: 1;
 }
+/* Video */
+.bg_video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    background: url(images/torre.jpg) no-repeat;
+    background-size: cover;
+}
+.controls22 {
+    width: 100%;
+    height: 8.0971659919028340080971659919028%; /* of figure's height */
+    position: relative;
+}
+ 
 /* Button 1 */
+.fa-btn3 {
+    font-size: 14px;
+    icon: inherit;
+    background: #ADD8E6;
+    cursor: pointer;
+    padding: 12px 40px;
+    display: inline-block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.fa-btn2 {
+    font-size: 14px;
+    icon: inherit;
+    background: #D3D3D3;
+    cursor: pointer;
+    padding: 12px 40px;
+    display: inline-block;
+    margin: 10px 0px;
+    text-transform: uppercase;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+}
 .fa-btn {
 	font-size: 14px;
 	background: none;
